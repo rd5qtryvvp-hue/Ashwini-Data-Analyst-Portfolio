@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="thumbnail.png" alt="Portfolio Thumbnail" width="100%">
+</p>
 # Ashwini-Data-Analyst-Portfolio
 Data Analyst Portfolio | CRM Migration · Power BI · SQL · Data Cleaning
 
