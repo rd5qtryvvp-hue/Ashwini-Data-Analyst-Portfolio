@@ -1,127 +1,136 @@
 <p align="center">
   <img src="thumbnail.png" alt="Portfolio Thumbnail" width="100%">
 </p>
-# Ashwini-Data-Analyst-Portfolio
-Data Analyst Portfolio | CRM Migration · Power BI · SQL · Data Cleaning
 
-🌟 Ashwini Harikumar — Data Analyst Portfolio
+<h1 align="center">Ashwini Harikumar — Data Analyst Portfolio</h1>
 
-End-to-end data analytics & business intelligence projects showcasing skills in SQL, Power BI, data modelling, CRM analytics, dashboard design, and insight storytelling.
+<p align="center">
+  SQL · Power BI · Python · CRM Analytics · Data Cleaning · Dashboard Design
+</p>
 
-👩‍💻 About Me
+<p align="center">
+  <a href="https://www.linkedin.com/in/ashwini-h-051a4a1b9">LinkedIn</a> ·
+  <a href="mailto:ashwiniharikumar18@gmail.com">Email</a> ·
+  Melbourne, VIC
+</p>
 
-I am a Data Analyst with experience across data cleaning, dashboarding, CRM analytics, and reporting.
-My strength lies in transforming raw data into actionable insights and building clean, business-ready dashboards.
+---
 
-This portfolio includes real-world style case studies that demonstrate:
+## 👩‍💻 About Me
 
-🔹 Power BI dashboard development
+I'm a Data Analyst with hands-on experience in CRM migration, SQL-based data validation, Power BI dashboard development, and operational analytics. My background spans non-profit fundraising data at Hagar Australia and hotel operations management at AC Marriott and Crown Metropol.
 
-🔹 DAX measures & calculated columns
+What makes my work different is that I bring domain expertise alongside technical skills. I don't just query data — I understand the operational context behind it, which means I know which metrics actually matter and why.
 
-🔹 Data modelling (1-to-many relationships)
+**What I do well:**
+- Transform messy, high-volume datasets into clean, reporting-ready structures
+- Build Power BI dashboards that answer real business questions — not just display numbers
+- Write SQL that validates, reconciles, and profiles data, not just retrieves it
+- Translate operational problems into analytical frameworks
 
-🔹 Segmentation & retention analysis
+---
 
-🔹 KPI reporting
+## 📁 Portfolio Projects
 
-🔹 SQL data cleaning & transformations
+---
 
-🔹 Insight generation & storytelling
-I am continuously expanding this portfolio with more projects to strengthen my analytics capability.
+### 🟦 1. Donation Insights — CRM Case Study
+📂 [`/Donation-Insights-CRM-Case-Study`](./Donation-Insights-CRM-Case-Study)
 
-📁 Portfolio Projects
+**Problem:** Donation datasets lacked clear insights into donor retention, revenue trends, and giving patterns — making it difficult to target campaigns effectively.
 
-Here are the key projects included in this repository:
+**What I did:**
+- Cleaned and validated raw donor and donation data using SQL
+- Built a relational data model (donors ↔ donations — one-to-many)
+- Developed a Power BI dashboard tracking revenue, repeat donor rate, and monthly trends
+- Added geographic breakdown and KPI cards for executive reporting
 
-🟦 1. Donation Insights — CRM Case Study (Power BI + SQL)
+**Key outputs:** SQL cleaning scripts · Power BI dashboard (.pbix) · Data model · Full documentation
 
-📂 Folder: /Donation-Insights-CRM-Case-Study
-A full end-to-end analysis of donor and donation patterns using SQL for cleaning and Power BI for visualisation.
+**Skills:** SQL · Power BI · DAX · Data Modelling · CRM Analytics
 
-What’s Included:
+---
 
-SQL cleaning scripts
+### 🟪 2. Donor Segmentation Analysis
+📂 [`/Donor-Segmentation-Analysis`](./Donor-Segmentation-Analysis)
 
-Data model (donors ↔ donations)
+**Problem:** The organisation couldn't identify which donor groups were driving the most revenue or which segments were at risk of lapsing — campaigns were sent to everyone equally.
 
-KPIs: Total Revenue, Average Donation, Repeat Donors
+**What I did:**
+- Built segmentation logic in DAX to categorise donors by value, frequency, and recency
+- Created KPI cards, distribution visuals, and behaviour analysis in Power BI
+- Identified high-value, at-risk, new, recurring, and lapsed donor segments
+- Delivered actionable insights to support targeted re-engagement campaigns
 
-Monthly trends & geography insights
+**Key outputs:** Segmentation DAX measures · Power BI dashboard (.pbix) · Behaviour analysis · Documentation
 
-Power BI dashboard (.pbix)
+**Skills:** Power BI · DAX · Segmentation · KPI Reporting · Insight Storytelling
 
-Full documentation (README.md)
+---
 
-Skills: SQL, Power BI, DAX, Data Modelling, CRM Analytics
+### 🏨 3. Velora Hotel — Housekeeping Operations Analytics
+📂 [`/velora-hotel-housekeeping-analytics`](./velora-hotel-housekeeping-analytics)
 
-🟪 2. Donor Segmentation Analysis — Power BI Dashboard
+**Problem:** As a Housekeeping Manager, I observed five recurring operational issues — uneven room allocation across floors, peak checkout bottlenecks, overtime blowouts, rooms not ready for check-in, and no visibility into individual staff productivity. There was no data infrastructure to diagnose or fix any of them.
 
-📂 Folder: /Donor-Segmentation-Analysis
-A segmentation-focused dashboard identifying donor groups, repeat donors, and revenue patterns.
+**What I did:**
+- Built a simulated operational dataset (4 CSVs, ~300 records) reflecting real housekeeping workflows
+- Wrote 4 SQL files covering data exploration, checkout bottleneck analysis, overtime root cause analysis, and room readiness SLA tracking
+- Built a Python notebook (pandas + matplotlib) with 5 charts and a findings summary
+- Designed a 4-page Power BI dashboard with DAX measures for SLA compliance, overtime cost, and staffing KPIs
+- Built an Excel staffing calculator using VLOOKUP and CEILING to recommend daily staff counts by floor — replacing flat allocation with a workload-weighted model
 
-What’s Included:
+**Key findings:**
+- 62% of overtime hours concentrated on Mondays and Fridays
+- 10–11am checkout window drove 48% of all room clearance delays
+- Room readiness SLA only being met 61% of the time (target: 85%)
+- Floors 5 and 7 consistently over-allocated; Floors 1 and 2 under-utilised
 
-Segmentation DAX
+**Key outputs:** 4 SQL analysis files · Python notebook with visualisations · Power BI dashboard guide (4 pages + DAX) · Excel staffing model (5-tab VLOOKUP/CEILING calculator) · Simulated CSV datasets
 
-KPI cards
+**Skills:** SQL (MySQL) · Python (pandas, matplotlib) · Power BI · DAX · Excel · Operational Analytics
 
-Donor distribution visuals
+---
 
-Behaviour analysis
+## 🧰 Tools & Technologies
 
-Power BI dashboard (.pbix)
+| Category | Tools |
+|----------|-------|
+| Querying & Validation | SQL (MySQL, PostgreSQL syntax) |
+| Visualisation & BI | Power BI Desktop, DAX, Power Query |
+| Programming | Python (pandas, matplotlib, seaborn) |
+| Spreadsheet Modelling | Excel (VLOOKUP, CEILING, conditional formatting) |
+| CRM Platforms | Raisely, Funraise, Salesforce, HubSpot |
+| Version Control | Git & GitHub |
+| Data Concepts | Data modelling, ETL, segmentation, reconciliation, SLA analysis |
 
-Documentation (README.md)
+---
 
-Skills: Power BI, DAX, Segmentation, KPI Reporting, Insight Storytelling
+## 🔍 What You'll See Across These Projects
 
-🧰 Tools & Technologies
+Every project in this portfolio follows the same structure:
 
-Power BI Desktop
+**Problem → Data → Analysis → Insight → Recommendation**
 
-SQL (PostgreSQL / MySQL syntax)
+I don't build dashboards for the sake of dashboards. Each project starts with a real operational or business problem, and the analysis exists to answer it. You'll find:
 
-DAX
+- SQL that profiles and validates before it queries
+- Power BI dashboards built around business questions, not available fields
+- Python notebooks with a findings summary at the end, not just charts
+- Documentation written for a non-technical reader, not just a developer
 
-Excel / CSV
+---
 
-Git & GitHub
+## 📫 Contact
 
-Data Modelling & ETL Concepts
+Open to data analyst, CRM analyst, BI analyst, and junior data roles in Melbourne.
 
-🔍 What I Focus On in My Projects
+- **Email:** ashwiniharikumar18@gmail.com
+- **LinkedIn:** [linkedin.com/in/ashwini-h-051a4a1b9](https://www.linkedin.com/in/ashwini-h-051a4a1b9)
+- **Location:** Melbourne, VIC (open to hybrid and on-site)
 
-✔ Clean, structured modelling
-✔ Accurate measures (DAX + SQL)
-✔ Business-relevant insights
-✔ Professional dashboard design
-✔ Clear documentation
-✔ Recruiter-friendly presentation
+---
 
-🚀 Upcoming Projects (In Progress)
-
-These will be added soon:
-
-📊 Marketing Analytics Dashboard
-
-📈 Sales Performance BI Dashboard
-
-🧮 RFM Segmentation (Recency-Frequency-Monetary)
-
-🧠 Customer Churn Prediction (optional – beginner ML)
-
-📫 Contact
-
-If you're a recruiter, hiring manager, or collaborator:
-
-Email: (You can add yours here)
-LinkedIn: https://www.linkedin.com/in/ashwini-h-051a4a1b9
-
-⭐ Thank you for viewing my portfolio!
-
-I’m continuously improving and adding new analytics projects.
-
-
-
-
+<p align="center">
+  Thank you for visiting — I'm continuously adding new projects to this portfolio.
+</p>
