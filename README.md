@@ -77,7 +77,7 @@ What makes my work different is that I bring domain expertise alongside technica
 - Built a simulated operational dataset (4 CSVs, ~300 records) reflecting real housekeeping workflows
 - Wrote 4 SQL files covering data exploration, checkout bottleneck analysis, overtime root cause analysis, and room readiness SLA tracking
 - Built a Python notebook (pandas + matplotlib) with 5 charts and a findings summary
-- Designed a 4-page Power BI dashboard with DAX measures for SLA compliance, overtime cost, and staffing KPIs
+- Designed a 4-page Tableau dashboard tracking SLA compliance, overtime cost, and staffing KPIs
 - Built an Excel staffing calculator using VLOOKUP and CEILING to recommend daily staff counts by floor — replacing flat allocation with a workload-weighted model
 
 **Key findings:**
@@ -86,9 +86,9 @@ What makes my work different is that I bring domain expertise alongside technica
 - Room readiness SLA only being met 61% of the time (target: 85%)
 - Floors 5 and 7 consistently over-allocated; Floors 1 and 2 under-utilised
 
-**Key outputs:** 4 SQL analysis files · Python notebook with visualisations · Power BI dashboard guide (4 pages + DAX) · Excel staffing model (5-tab VLOOKUP/CEILING calculator) · Simulated CSV datasets
+**Key outputs:** 4 SQL analysis files · Python notebook with visualisations · Tableau dashboard (4 pages) · Excel staffing model (5-tab VLOOKUP/CEILING calculator) · Simulated CSV datasets
 
-**Skills:** SQL (MySQL) · Python (pandas, matplotlib) · Power BI · DAX · Excel · Operational Analytics
+**Skills:** SQL (MySQL) · Python (pandas, matplotlib) · Tableau Public · Excel · Operational Analytics
 
 ---
 
@@ -97,7 +97,7 @@ What makes my work different is that I bring domain expertise alongside technica
 | Category | Tools |
 |----------|-------|
 | Querying & Validation | SQL (MySQL, PostgreSQL syntax) |
-| Visualisation & BI | Power BI Desktop, DAX, Power Query |
+| Visualisation & BI | Power BI Desktop, DAX, Power Query, Tableau Public |
 | Programming | Python (pandas, matplotlib, seaborn) |
 | Spreadsheet Modelling | Excel (VLOOKUP, CEILING, conditional formatting) |
 | CRM Platforms | Raisely, Funraise, Salesforce, HubSpot |
@@ -115,7 +115,7 @@ Every project in this portfolio follows the same structure:
 I don't build dashboards for the sake of dashboards. Each project starts with a real operational or business problem, and the analysis exists to answer it. You'll find:
 
 - SQL that profiles and validates before it queries
-- Power BI dashboards built around business questions, not available fields
+- Dashboards built around business questions, not available fields
 - Python notebooks with a findings summary at the end, not just charts
 - Documentation written for a non-technical reader, not just a developer
 
